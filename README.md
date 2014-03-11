@@ -1,4 +1,4 @@
--simple-blog-part-4-categories
-==============================
+Simple Blog part 4: Categories
+=============
 
-Create a blog from scratch with PHP
+These files acompany the tutorial: [Creating a blog from scratch with PHP - Part 4 Categories](daveismyname.com/creating-a-blog-from-scratch-with-php-part-4-categories-bp)
