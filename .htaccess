@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /simple-blog-part-4-categories/
+
+RewriteRule ^c-(.*)$ catpost.php?id=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [NC]
+RewriteRule ^(.*)$ viewpost.php?id=$1 [QSA,L]
