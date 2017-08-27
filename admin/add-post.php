@@ -124,6 +124,8 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 			while($row2 = $stmt2->fetch()){
 
 				if(isset($_POST['catID'])){
+					
+					$checked = null;
 
 					if(in_array($row2['catID'], $_POST['catID'])){
                        $checked="checked='checked'";
